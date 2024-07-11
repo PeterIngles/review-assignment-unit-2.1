@@ -10,10 +10,14 @@ let lastName = 'Ingles'
 
 let fullName = 'Peter Ingles'
 
+console.log(firstName +  ' ' + lastName)
+
 // 4 - Create a variable called `luckyNumber` and assign it the value of your lucky number.
 //     Console log the value of `luckyNumber`
 
+let lucklyNumber = 13
 
+console.log(lucklyNumber)
 
 // 5 - Create a variable `introduction` and using the variables from above,
 //     give it the value of:
@@ -21,8 +25,14 @@ let fullName = 'Peter Ingles'
 //     Refer back to the videos if you need help with this one.
 //     Console log the value of `introduction`
 
+let introduction = "My name is " + firstName + lastName + " and I think " + lucklyNumber + " is a winner!" 
+console.log(introduction)
+
 // 6 - Create a variable named `adventurous` and set it to a boolean value (true or false)
 //     Console log the value of `adventurous`
+
+let adventurous = false
+console.log(adventurous)
 
 // 7 - Create a variable named `food`, and set its value to a string of your favorite food
 //     Console log the value of `food`
