@@ -51,7 +51,8 @@ let friendsPets = 4
 
 // 10 - Add two pets to your `pets` variable
 
-friendsPets + 2
+pets = pets +2
+console.log("My pets", pets)
 
 // 11 - Create a constant variable called `allowedPets` and set it to a number value of your choice
 
