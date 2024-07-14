@@ -63,6 +63,16 @@ var allowedPets = 10
 //      if it's not true,  set `result` to be "How about we stay home?"
 //      Console log the value of `result`
 
+let result;
+
+if (adventurous) {
+  result = "Adventures are great!";
+} else {
+  result = "How about we stay home?";
+}
+
+console.log("Result is", result)
+
 // 13 - Create a variable called `diceRoll` and set it to the value of "Try again later.".
 //      Create a compound conditional: 
 //      if luckyNumber is 2 and adventurous is true,
